@@ -22,17 +22,18 @@ body {
 .menuItens {
   list-style: none;
   padding: 0;
+  margin: 0;
   text-align: center;
 }
 .menuItem {
   display: inline-block;
-
+  background: white;
   border: 1px solid gray;
-  border-radius: 200px;
-  padding: 15px;
-  width: 80px;
+  color: black;
+  padding: 100px;
+  width: 10vh;
+  height: 100%;
   margin: 10px;
-  background-color: bisque;
   text-align: center;
 }
 .a1 {
@@ -63,7 +64,19 @@ main {
   color: black;
   border: 1px solid rgb(247, 243, 243);
 }
+.artical2 {
+  background: white;
+  color: black;
+  border: 1px solid rgb(247, 243, 243);
+  text-align: center;
+}
 .foto {
+  margin-top: 1vh;
+  width: 293px;
+  height: 100%;
+}
+.foto2 {
+  margin-top: 1vh;
   width: 265px;
   height: 176px;
 }
