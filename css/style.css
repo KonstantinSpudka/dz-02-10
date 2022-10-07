@@ -14,13 +14,27 @@ header {
   text-align: center;
   align-items: center;
   color: #926239;
-  font-size: 20px;
 }
-.header {
+/*.header {
   padding-top: 10vh;
-}
-h1 {
+}*/
+/*h1 {
   margin-top: 150px;
+}*/
+.header-box {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0px solid gray;
+  padding-top: 350px;
+}
+
+.header-h1 {
+  font-size: 50px;
+  line-height: 1px;
+}
+.header-p {
+  font-size: 20px;
+  line-height: 1px;
 }
 main {
   background: #926239;
@@ -28,8 +42,12 @@ main {
 .botton {
   display: inline-block;
   color: #926239;
-  border: 1px solid rgb(7, 7, 7);
+  border: 1px solid #926239;
   padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   border-radius: 10px;
 
