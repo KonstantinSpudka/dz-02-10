@@ -44,6 +44,10 @@ body {
   color: aliceblue;
   text-decoration: none;
 }
+.a1:hover {
+  background-color: white;
+  color: #333333;
+}
 main {
 }
 p {

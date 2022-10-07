@@ -30,11 +30,11 @@ header {
 
 .header-h1 {
   font-size: 50px;
-  line-height: 1px;
+  line-height: 10px;
 }
 .header-p {
   font-size: 20px;
-  line-height: 1px;
+  line-height: 10px;
 }
 main {
   background: #926239;
@@ -43,16 +43,19 @@ main {
   display: inline-block;
   color: #926239;
   border: 1px solid #926239;
-  padding: 10px;
+  font-size: 19px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
-
   border-radius: 10px;
-
   text-decoration: none;
 }
+.botton:hover {
+  background-color: #926239;
+  color: white;
+}
+
 .styleNews {
   background: #926239;
   color: white;
