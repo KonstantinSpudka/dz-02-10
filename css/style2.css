@@ -133,3 +133,10 @@ main {
 
   text-align: center;
 }
+.colonki {
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+.colonki-2 {
+  columns: 2;
+}
