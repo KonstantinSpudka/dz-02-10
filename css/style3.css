@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+header {
+  min-height: 100vh;
+  background: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  color: #926239;
+}
+/*.header {
+  padding-top: 10vh;
+}*/
+/*h1 {
+  margin-top: 150px;
+}*/
+.header-box {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0px solid gray;
+  padding-top: 350px;
+}
+
+.header-h1 {
+  font-size: 50px;
+  line-height: 10px;
+}
+.header-p {
+  font-size: 20px;
+  line-height: 10px;
+}
+main {
+  background: #926239;
+}
+.botton {
+  display: inline-block;
+  color: #926239;
+  border: 1px solid #926239;
+  font-size: 19px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.botton:hover {
+  background-color: #926239;
+  color: white;
+}
+
+.styleNews {
+  background: #926239;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.styleNews2 {
+  background: white;
+  color: #926239;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#newsItem {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0px solid gray;
+  width: 33%;
+}
